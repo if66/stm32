@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="openBt">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>524</y>
+      <width>191</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>383</width>
+      <height>384</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/images/猫眼04_02.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeBt">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>524</y>
+      <width>191</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveBt">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>430</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recognitionBt">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>370</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>440</y>
+      <width>461</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ewm">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>105</y>
+      <width>170</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveInfoBt">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>235</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#saveInfoBt
+{
+    color: rgb(0, 0, 0);
+	border-color:rgb(241, 236, 237);
+    background:rgb(255, 255, 255);
+    border:1px solid grey;
+    border-radius: 10px;
+}
+QPushButton#saveInfoBt:hover
+{
+    border-color:rgb(0, 0, 0);
+    background:rgb(220, 220, 220);
+}
+QPushButton#saveInfoBt:pressed
+{
+    border-color:rgb(0, 0, 0);
+    background:rgb(190, 190, 190);
+}
+QPushButton#saveInfoBt:disabled
+{
+    border-color:rgb(167, 164, 170);
+    background:rgb(167, 164, 170);
+    color: rgb(255,255,255);
+}</string>
+    </property>
+    <property name="text">
+     <string>录入</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginBt">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>290</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitBt">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>430</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_autoCheck">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>105</y>
+      <width>175</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_facesave">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>105</y>
+      <width>175</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>524</y>
+      <width>383</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/images/猫眼04_03.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_background">
+    <property name="geometry">
+     <rect>
+      <x>383</x>
+      <y>0</y>
+      <width>640</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/images/猫眼_03.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_ewm">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>110</y>
+      <width>170</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/images/猫眼_07.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>383</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/images/猫眼04_01.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitapp">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_background</zorder>
+   <zorder>label</zorder>
+   <zorder>recognitionBt</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>saveInfoBt</zorder>
+   <zorder>loginBt</zorder>
+   <zorder>exitBt</zorder>
+   <zorder>pushButton_autoCheck</zorder>
+   <zorder>pushButton_facesave</zorder>
+   <zorder>label_3</zorder>
+   <zorder>openBt</zorder>
+   <zorder>closeBt</zorder>
+   <zorder>saveBt</zorder>
+   <zorder>label_ewm</zorder>
+   <zorder>pushButton_ewm</zorder>
+   <zorder>label_2</zorder>
+   <zorder>quitapp</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

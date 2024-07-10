@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/人脸识别.png</file>
+        <file>icon/brid.bmp</file>
+        <file>icon/images/猫眼04.jpg</file>
+        <file>icon/images/exit.png</file>
+        <file>icon/images/exit1.png</file>
+        <file>icon/images/清除.png</file>
+        <file>icon/images/猫眼5.jpg</file>
+        <file>icon/images/猫眼06.png</file>
+        <file>icon/images/猫眼_02.jpg</file>
+        <file>icon/images/猫眼_07.png</file>
+        <file>icon/images/猫眼_01.jpg</file>
+        <file>icon/images/08.png</file>
+        <file>icon/images/猫眼_03.jpg</file>
+        <file>icon/images/猫眼04_01.jpg</file>
+        <file>icon/images/猫眼04_02.jpg</file>
+        <file>icon/images/猫眼04_03.jpg</file>
+    </qresource>
+</RCC>
